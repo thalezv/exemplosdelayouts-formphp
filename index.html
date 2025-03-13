@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobreposição de landing pages</title>
+</head>
+<body>
+    <div class="interface">
+        <section class="page1">
+            <div class="back">
+                <video loop autoplay muted>
+                    <source src="complemento/videoplayback.mp4" type="video/mp4">
+                </video>
+            </div>
+            <header>
+                <img src="complemento/artpoin-dragon-ball1.png" alt="logo do filme, as bola do dragão, sete esferas com estrelas">
+                <ul class="nav">
+                    <li><a href="#" class="nav-link">Home</a></li>
+                    <li><a href="#" class="nav-link">Store</a></li>
+                    <li><a href="#" class="nav-link">WallPaper</a></li>
+                    <li><a href="#" class="nav-link">Trailer</a></li>  
+                </ul>
+            </header>
+            <div class="main">
+                <img 
+                data-aos="fade-up"
+                data-aos-duration="800"
+                data-aos="ease-in-out"
+                src="complemento/icon.png" alt="icone oficial do filme">
+                <div class="conteudo">
+                    <img 
+                    data-aos="fade-up"
+                    data-aos-delay="600"
+                    data-aos-duration="800"
+                    data-aos="ease-in-out"
+                    src="complemento/vecteezy_whimsical-goku-a-charming-cartoon-portrait_51135752 (1).png" alt="arte do goku">
+                    <p
+                    data-aos="fade-up"
+                    data-aos-delay="300"
+                    data-aos-duration="800"
+                    data-aos="ease-in-out"
+                    >
+                        Beerus, o deus da destruição, despertou depois de anos de Sono.
+                         Ao escutar que um Super Saiyajin conseguiu vencer Freeza, Beerus 
+                         vai atrás de Goku e de um suposto Deus Saiyajin. Goku precisa se 
+                         preparar para enfrentar uma força inimaginável.
+                    </p>
+                </div>
+                <div 
+                data-aos="fade-up"
+                data-aos-delay="900"
+                data-aos-duration="800"
+                data-aos="ease-in-out"
+                class="acessos">
+                    <a href="#">Assistir trailer</a>
+                    <button>Comprar ingresso</button>
+                </div>
+            </div>
+        </section>
+        <section class="page2">
+            <div class="cont">
+                <div class="flex">
+                    <div class="txt-leads">
+                        <h1>
+                            Torne-se um<br>
+                            <span>Desenvolvedor Web</span>
+                        </h1>
+                        <img src="complemento/c2b1cc9a4c51cf94b01f305efbb735de.png" alt="homem trabalhando no computador">
+                        <p>
+                            Baixe o e-book gratuito e comece sua jornada.<br>
+                            <span>Tire seus projetos do papel</span>
+                        </p>
+                    </div>
+                    <div class="form-leads">
+                        <form method="post" action="envia.php">
+                            <h2>Insira seus dados<br>
+                                <span>e receba o e-book no seu e-mail</span>
+                            </h2>
+                            <div class="input-box">
+                                <label for="nome">Seu nome*:</label>
+                                <input type="text" id="nome" name="nome" required>
+                            </div>
+                            <div class="input-box">
+                                <label for="telefone">Seu telefone:</label>
+                                <input type="text" id="telefone" name="fone">
+                            </div>
+                            <div class="input-box">
+                                <label for="email">Seu e-mail*:</label>
+                                <input type="text" id="email" name="email" required>
+                            </div>
+                            <div class="btn-enviar">
+                                <input type="submit" value="ENVIAR">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="page3">
+            <h1>Page 3</h1>
+        </section>
+    </div>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
+</body>
+</html>
