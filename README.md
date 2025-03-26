@@ -1,1 +1,1 @@
-object-fit:cover, permite expandir ou diminuir imagens e videos, sem perder qualidade, e o cover restrige a altura e largura usados; tal como mandar objetos no css para frente usa um numero absurdamente grande, para mandar para tras basta usar -1; 
+Neste projeto, está presente uma transição inovadora de conteúdos da página, onde eles se sobrepõem, sendo o primeiro um exemplo de layout para sites e o segundo um layout de landing page simples com envio direto para email por PHP.
