@@ -18,7 +18,7 @@
 }
 
 section{
-    height: 100%;
+    height: 100vh;
     scroll-snap-align: start;
     position: sticky;
     top: 0;
@@ -328,5 +328,23 @@ form h2 span{
     .acessos button{
         padding: 0 10px;
         font-size: 18px;
+    }
+
+    section.page2{
+        position: relative;
+        height: 200vh;
+    }
+
+    .cont .flex{
+        flex-direction: column;
+        justify-content: none;
+    }
+
+    .txt-leads p span{
+        display: none;
+    }
+
+    .form-leads{
+        margin: 0 10px;
     }
 }
